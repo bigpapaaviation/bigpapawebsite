@@ -4,7 +4,7 @@ Single-page site for Big Papa Aviation — Ben "Big Papa" Ausbrooks, retired USM
 flying aerobatics in his Steen Super Skybolt. *Professional Aviator · Positive Attitude.*
 
 Static site — plain HTML/CSS/JS, no build step. Live at:
-**https://YOUR_USERNAME.github.io/bigpapaaviation/** (GitHub Pages, deployed from `main`)
+**https://opie11.github.io/bigpapaaviation/** (GitHub Pages, deployed from `main`)
 
 ## Edit content
 
