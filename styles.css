@@ -513,7 +513,7 @@ section { scroll-margin-top: calc(var(--nav-h) + 8px); }
 .aircraft__bg {
   position: absolute;
   inset: 0;
-  background: url("assets/img/skybolt-navion-rtb.jpg") center 30% / cover no-repeat;
+  background: url("assets/img/gallery-4579a.jpg") center 30% / cover no-repeat;
   opacity: 0.9;
 }
 .aircraft__bg::after {
