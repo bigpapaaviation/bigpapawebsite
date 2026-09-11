@@ -314,12 +314,10 @@ section { scroll-margin-top: calc(var(--nav-h) + 8px); }
   gap: 16px;
   flex-wrap: wrap;
 }
-.hero__flag {
-  height: 12px;
-  flex: 0 0 46px;
-  border-radius: 3px;
-  background: linear-gradient(180deg,
-    var(--red-600) 0 33.3%, var(--white) 33.3% 66.6%, #2148b0 66.6% 100%);
+.hero__usmc {
+  height: clamp(30px, 4.5vw, 42px);
+  width: auto;
+  flex: 0 0 auto;
 }
 .hero__cta { margin-top: 44px; display: flex; gap: 16px; flex-wrap: wrap; }
 
@@ -491,7 +489,7 @@ section { scroll-margin-top: calc(var(--nav-h) + 8px); }
 .about__stats {
   margin-top: 38px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   gap: 12px 40px;
   justify-content: start;
 }
@@ -872,7 +870,7 @@ section { scroll-margin-top: calc(var(--nav-h) + 8px); }
   .masonry { columns: 1; }
   .aircraft__specs { grid-template-columns: 1fr 1fr; gap: 12px; }
   .spec { padding: 20px 18px; }
-  .spec__value { font-size: 1.35rem; }
+  .spec__value { font-size: 1.2rem; }
   .lightbox { padding: 20px; }
   .lightbox__nav--prev { left: 10px; }
   .lightbox__nav--next { right: 10px; }
