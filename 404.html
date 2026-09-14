@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — Big Papa Airshows</title>
+  <!-- Catch-all: any unknown path goes back to the site root.
+       Computes the root so it works at the custom domain AND
+       under the GitHub Pages subpath preview. -->
+  <script>
+    (function () {
+      var seg = location.pathname.split('/').filter(Boolean);
+      var base = /\.github\.io$/.test(location.hostname) && seg.length ? '/' + seg[0] + '/' : '/';
+      var link = document.getElementById('home-link');
+      if (link) { link.href = base; }
+      location.replace(base);
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+           font-family: system-ui, sans-serif; background: #04091a; color: #fff; }
+    a { color: #ff3b4e; }
+  </style>
+</head>
+<body>
+  <p>That page doesn't exist &mdash; taking you to <a id="home-link" href="/">bigpapaaviation.com</a>&hellip;</p>
+</body>
+</html>
